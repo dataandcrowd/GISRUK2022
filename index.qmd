@@ -20,13 +20,10 @@ Quarto enables you to weave together content and executable code into a finished
 
 ## Bullets
 
-::: {.incremental}
-
-- Eat spaghetti
-- Drink wine
-
+::: incremental
+-   Eat spaghetti
+-   Drink wine
 :::
-
 
 ## Code
 
