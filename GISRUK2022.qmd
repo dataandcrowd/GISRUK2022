@@ -3,7 +3,7 @@ title: "Geographic Biases in OSM Contributions"
 subtitle: "How do the Geographic Extent of Contributions Differ among Demographic groups?"
 format:
   revealjs: 
-    theme: night
+    theme: default
     incremental: true 
     slide-number: true
     chalkboard: 
