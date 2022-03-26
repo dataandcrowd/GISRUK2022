@@ -1,6 +1,8 @@
 ---
 title: "Geographic Biases in OSM Contributions"
-subtitle: "How do the Geographic Extent of Contributions Differ among Demographic groups?"
+subtitle: "How do the Geographic Extent of Contributions Differ among Demographic groups?\n"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+author: "Hyesop Shin, Ana Basiri"
 format:
   revealjs: 
     theme: default
@@ -11,24 +13,29 @@ format:
     preview-links: auto
 #    logo: images/quarto.png
     css: styles.css
-    footer: <https://quarto.org>
+    #footer: <https://quarto.org>
 ---
 
-## Geographic Biases in OSM Contributions
+## VGI
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
 
-## Bullets
+## Our Focus: The Volunteers
 
-::: incremental
--   Eat spaghetti
--   Drink wine
+
+## Volunteers are not always representative
+
+::: {.nonincremental}
+<p style="font-size:14px; color:#538b01; margin-top: 3em; font-weight:bold; font-style:italic;">
+  Enter the competition by 
+  <span style="color: #ff0000">January 30, 2011</span>
+  and you could win up to $$$$ — including amazing 
+  <span style="color: #0000a0">summer</span> 
+  trips!
+</p>
+- Eat spaghetti
+- Drink wine
+
 :::
 
-## Code
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
 
-```{r}
-1 + 1
-```
