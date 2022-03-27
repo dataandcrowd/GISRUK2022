@@ -23,19 +23,91 @@ format:
 
 
 ## Volunteers are not always representative
-
 ::: {.nonincremental}
-<p style="font-size:14px; color:#538b01; margin-top: 3em; font-weight:bold; font-style:italic;">
-  Enter the competition by 
-  <span style="color: #ff0000">January 30, 2011</span>
-  and you could win up to $$$$ — including amazing 
-  <span style="color: #0000a0">summer</span> 
-  trips!
+<p style="font-size:45px; margin-top: 1em">
+  Under-represented crowd
 </p>
-- Eat spaghetti
-- Drink wine
-
+- A silent minority who needs information about public facilities
+- A community with local knowledge but weakness in internet technology
+- Voluntary works are to some extent associated with the time spent on computers and social media (Jago et al., 2014; Clary et al., 2020)
 :::
+
+## Under-representation and Spatial Bias
+
+Patchy distribution of maps across space and time
+A well-known feature of the data from citizen science projects is the patchy distribution of maps across space and time
+This leaves global citizen science datasets with spatial and temporal gaps and redundancies
+The majority tend to contribute to more familiar areas
+The minority spend less time on volunteered works, tend to contribute to neighbourhood areas
+
+
+## Research Gaps
+Current literature of citizen science looking at spatial and temporal biases:
+Ecological Fallacy
+Do not breakdown the records by demographic groups even though certain cohorts have different distributions than their counterparts. These studies only imply gender or age biases as a whole.
+Focus either on demographic characteristics or spatial and temporal patterns - the two perspectives are usually not put into relation with each other
+Strava is attempting to consider gender, age
+Still very young stage
+
+
+
+## Study Objective
+To explore the number of contributed countries to OSM between gender and age 
+To quantify the diversity of OSM contributions between gender and age 
+
+
+
+## Methods
+
+
+
+## Gini-Simpson’s Diversity Index: The Metrics
+
+We analyzed user’s mapping behaviour
+We first defined at individual level and then aggregated by averaging over users with same gender and age cohort
+Each individual will have a value between 0-1
+0: Less diverse (tends to be domestic)
+1: More diverse
+
+
+## Results: 
+
+
+## Top three countries accounted for 60% of the total contribution
+
+
+
+## Contributed Countries by Users’ Demography
+Long-tail distribution was seen in men and women in 20s
+Women in 30s and over had fewer than 100 contributed countries
+Likely due to fewer survey participants, but OSM, in general, might have a similar distribution
+
+
+
+## Results: Gini-Simpson’s Diversity Index
+Average of GSDI: Female: 0.5 Male: 0.67
+Male participants were likely contribute to more countries and wide distribution than their female counterparts.
+However, two peaks of diversity patterns of the female users mean that the spatial preference within the group contrasts significantly
+
+
+## Gini-Simpson’s Diversity Index
+Male participants have systematically scored higher diversity measures across both age groups, and the average scores are less likely to differ between age groups
+The scores from female participants are constantly lower than that of males, and it varies significantly by age group
+Female 40-50s’ have wider variation due to small number of participants
+
+## Conclusion
+Main Contribution: Exploratory Analysis
+Women’s spatial coverage to OSM were remarkably lower than that of men
+However, such variabilities can be identified by the disaggregation of gender and age
+Men in 20s' to over 50s' groups and women in the 20s' group had polarised contributions where the averages were at 40-50 countries but have extreme users who contribute to over 150 countries. 
+60% of the participants made changes to the UK, the US, and Germany.
+
+
+Main Contribution: Gini-Simpson’s Diversity Index
+Men: 0.67 Women 0.50
+Men were more likely to be spatial diverse than their female counterparts. However, this once again varied significantly by the age groups.
+
+
 
 
 
