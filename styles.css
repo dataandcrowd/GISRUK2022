@@ -8,4 +8,9 @@
   font-size: 25px;
   line-height: 0;
 }
-
+p{ /*body text*/
+  font-size: 0.8em;
+}
+ul{
+  font-size: 0.8em;
+}

@@ -11,16 +11,30 @@ format:
     chalkboard: 
       buttons: false
     preview-links: auto
-#    logo: images/quarto.png
     css: styles.css
-    #footer: <https://quarto.org>
+    logo: images/frontlogo.png
+    
 ---
 
 ## VGI
 
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/vgi.png){.absolute top="0" left="-100" width="700" height="500"}
+![](images/apps.png){.absolute top="450" left="-50" width="400" height="200"}
+:::
+
+::: {.column width="50%"}
+<p style="font-size:40px; margin-top: 1em">
+  the use of digital devices to collect, assemble, modify and share geographic data provided voluntarily by citizens (Goodchild, 2007)
+</p>
+:::
+::::
+
 
 ## Our Focus: The Volunteers
-
+![](images/focus.png){.absolute top="100" left="0" width="1300" height="430"}
 
 ## Volunteers are not always representative
 ::: {.nonincremental}
