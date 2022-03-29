@@ -6,7 +6,7 @@ author: "Hyesop Shin, Ana Basiri"
 format:
   revealjs: 
     theme: default
-    incremental: true 
+    incremental: false 
     slide-number: true
     chalkboard: 
       buttons: false
@@ -15,7 +15,7 @@ format:
     logo: images/frontlogo.png
     
 ---
-
+<!--
 ## VGI
 
 :::: {.columns}
@@ -31,14 +31,15 @@ format:
 </p>
 :::
 ::::
-
+-->
 
 ## Our Focus: The Volunteers
 ![](images/focus.png){.absolute top="100" left="0" width="1300" height="430"}
 
 ## Volunteers are not always representative
+
 ::: {.nonincremental}
-<p style="font-size:45px; margin-top: 1em">
+<p style="font-size:45px; margin-top: 1em; color: blue">
   Under-represented crowd
 </p>
 - A silent minority who needs information about public facilities
@@ -46,15 +47,19 @@ format:
 - Voluntary works are to some extent associated with the time spent on computers and social media (Jago et al., 2014; Clary et al., 2020)
 :::
 
+![](images/underrepresented.png){.absolute top="500" left="100" width="800" height="150"}
+
+
 ## Under-representation and Spatial Bias
 
-Patchy distribution of maps across space and time
-A well-known feature of the data from citizen science projects is the patchy distribution of maps across space and time
-This leaves global citizen science datasets with spatial and temporal gaps and redundancies
-The majority tend to contribute to more familiar areas
-The minority spend less time on volunteered works, tend to contribute to neighbourhood areas
+- A well-known feature of the data from citizen science projects is the patchy distribution of maps across space and time
+- This leaves global citizen science datasets with spatial and temporal gaps and redundancies
+- The majority tend to contribute to more familiar areas
+- The minority spend less time on volunteered works, tend to contribute to neighbourhood areas
 
+![](images/spatialbias.png){.absolute top="550" left="350" width="400" height="150"}
 
+<!--
 ## Research Gaps
 Current literature of citizen science looking at spatial and temporal biases:
 Ecological Fallacy
@@ -62,52 +67,98 @@ Do not breakdown the records by demographic groups even though certain cohorts h
 Focus either on demographic characteristics or spatial and temporal patterns - the two perspectives are usually not put into relation with each other
 Strava is attempting to consider gender, age
 Still very young stage
+-->
 
 
+## Study Objective and Methods{auto-animate=true}
+- To explore the number of contributed countries to OSM between gender and age 
+- To quantify the diversity of OSM contributions between gender and age 
 
-## Study Objective
-To explore the number of contributed countries to OSM between gender and age 
-To quantify the diversity of OSM contributions between gender and age 
 
-
+## Study Objective and Methods{auto-animate=true}
+- To explore the number of contributed countries to OSM between gender and age → <span style="color:blue">**Data Exploration**</span>
+- To quantify the diversity of OSM contributions between gender and age → <span style="color:blue">**(Gini) Simpson's Diversity Index**</span>
 
 ## Methods
 
+![](images/methods.png){.absolute top="100" left="100" width="900" height="480"}
 
 
-## Gini-Simpson’s Diversity Index: The Metrics
+## (Gini) Simpson’s Diversity Index: The Metrics
 
-We analyzed user’s mapping behaviour
-We first defined at individual level and then aggregated by averaging over users with same gender and age cohort
-Each individual will have a value between 0-1
-0: Less diverse (tends to be domestic)
-1: More diverse
+![](images/simpson.png){.absolute top="150" left="150" width="700" height="70"}
+
+::: {style="text-align: center; margin-top: 2.5em"}
+
+- We first defined at individual level and then aggregated by averaging over users with same gender and age cohort
+- Each individual will have a value between 0-1
+    - 0: Less diverse (tends to be domestic)
+    - 1: More diverse
+:::
 
 
-## Results: 
+## Results{background="#43464B"}
+
+::: {style="margin-top: 1em"}
+
+- Exploratory Findings
+- Simpson’s Diversity Index
+:::
 
 
 ## Top three countries accounted for 60% of the total contribution
 
+![](images/barplot.png){.absolute top="200" left="0" width="500" height="400"}
+![](images/wordcloud.png){.absolute top="220" left="600" width="400" height="350"}
 
 
 ## Contributed Countries by Users’ Demography
-Long-tail distribution was seen in men and women in 20s
-Women in 30s and over had fewer than 100 contributed countries
-Likely due to fewer survey participants, but OSM, in general, might have a similar distribution
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/violin.png){.absolute top="200" left="-30" width="500" height="350"}
+:::
+
+::: {.column width="50%"}
+- Long-tail distribution was seen in men and women in 20s
+- Women in 30s and over had fewer than 100 contributed countries
+- Likely due to fewer survey participants, but OSM, in general, might have a similar distribution
+:::
+::::
 
 
 
 ## Results: Gini-Simpson’s Diversity Index
-Average of GSDI: Female: 0.5 Male: 0.67
-Male participants were likely contribute to more countries and wide distribution than their female counterparts.
-However, two peaks of diversity patterns of the female users mean that the spatial preference within the group contrasts significantly
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/density.png){.absolute top="150" left="-30" width="500" height="480"}
+:::
+
+::: {.column width="50%"}
+- SDI: Female: 0.5 Male: 0.67
+- Male participants were likely contribute to more countries than their female counterparts.
+- However, two peaks of diversity patterns of the female users mean that the spatial preference within the group contrasts significantly
+
+:::
+::::
 
 
 ## Gini-Simpson’s Diversity Index
-Male participants have systematically scored higher diversity measures across both age groups, and the average scores are less likely to differ between age groups
-The scores from female participants are constantly lower than that of males, and it varies significantly by age group
-Female 40-50s’ have wider variation due to small number of participants
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/boxplotage.png){.absolute top="100" left="-30" width="500" height="480"}
+:::
+
+::: {.column width="50%"}
+- Male participants have systematically scored higher diversity measures across both age groups
+- The scores of female participants are constantly lower than that of males, and it <span style="color:blue">*varies significantly by age groups*</span>
+- Female 40-50s’ have wider variation due to small number of participants
+:::
+::::
+
+
 
 ## Conclusion
 Main Contribution: Exploratory Analysis

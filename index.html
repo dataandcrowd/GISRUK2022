@@ -336,20 +336,28 @@
   <h1 class="title">Geographic Biases in OSM Contributions</h1>
   <p class="subtitle"></p><p>How do the Geographic Extent of Contributions Differ among Demographic groups?</p><p></p>
   <p class="author">Hyesop Shin, Ana Basiri</p>
-  <p class="date">28 March, 2022</p>
+  <p class="date">29 March, 2022</p>
 </section>
 
-<section id="vgi" class="slide level2">
-<h2>VGI</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="images/vgi.png" class="absolute" style="top: 0px; left: -100px; width: 700px; height: 500px; "> <img data-src="images/apps.png" class="absolute" style="top: 450px; left: -50px; width: 400px; height: 200px; "></p>
-</div><div class="column" style="width:50%;">
+<section class="slide level2">
+
+<!--
+## VGI
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/vgi.png){.absolute top="0" left="-100" width="700" height="500"}
+![](images/apps.png){.absolute top="450" left="-50" width="400" height="200"}
+:::
+
+::: {.column width="50%"}
 <p style="font-size:40px; margin-top: 1em">
-the use of digital devices to collect, assemble, modify and share geographic data provided voluntarily by citizens (Goodchild, 2007)
+  the use of digital devices to collect, assemble, modify and share geographic data provided voluntarily by citizens (Goodchild, 2007)
 </p>
-</div>
-</div>
+:::
+::::
+-->
 </section>
 <section id="our-focus-the-volunteers" class="slide level2">
 <h2>Our Focus: The Volunteers</h2>
@@ -358,7 +366,7 @@ the use of digital devices to collect, assemble, modify and share geographic dat
 <section id="volunteers-are-not-always-representative" class="slide level2">
 <h2>Volunteers are not always representative</h2>
 <div>
-<p style="font-size:45px; margin-top: 1em">
+<p style="font-size:45px; margin-top: 1em; color: blue">
 Under-represented crowd
 </p>
 <ul>
@@ -367,43 +375,113 @@ Under-represented crowd
 <li>Voluntary works are to some extent associated with the time spent on computers and social media (Jago et al., 2014; Clary et al., 2020)</li>
 </ul>
 </div>
+<p><img data-src="images/underrepresented.png" class="absolute" style="top: 500px; left: 100px; width: 800px; height: 150px; "></p>
 </section>
 <section id="under-representation-and-spatial-bias" class="slide level2">
 <h2>Under-representation and Spatial Bias</h2>
-<p>Patchy distribution of maps across space and time A well-known feature of the data from citizen science projects is the patchy distribution of maps across space and time This leaves global citizen science datasets with spatial and temporal gaps and redundancies The majority tend to contribute to more familiar areas The minority spend less time on volunteered works, tend to contribute to neighbourhood areas</p>
+<ul>
+<li>A well-known feature of the data from citizen science projects is the patchy distribution of maps across space and time</li>
+<li>This leaves global citizen science datasets with spatial and temporal gaps and redundancies</li>
+<li>The majority tend to contribute to more familiar areas</li>
+<li>The minority spend less time on volunteered works, tend to contribute to neighbourhood areas</li>
+</ul>
+<p><img data-src="images/spatialbias.png" class="absolute" style="top: 550px; left: 350px; width: 400px; height: 150px; "></p>
+<!--
+## Research Gaps
+Current literature of citizen science looking at spatial and temporal biases:
+Ecological Fallacy
+Do not breakdown the records by demographic groups even though certain cohorts have different distributions than their counterparts. These studies only imply gender or age biases as a whole.
+Focus either on demographic characteristics or spatial and temporal patterns - the two perspectives are usually not put into relation with each other
+Strava is attempting to consider gender, age
+Still very young stage
+-->
 </section>
-<section id="research-gaps" class="slide level2">
-<h2>Research Gaps</h2>
-<p>Current literature of citizen science looking at spatial and temporal biases: Ecological Fallacy Do not breakdown the records by demographic groups even though certain cohorts have different distributions than their counterparts. These studies only imply gender or age biases as a whole. Focus either on demographic characteristics or spatial and temporal patterns - the two perspectives are usually not put into relation with each other Strava is attempting to consider gender, age Still very young stage</p>
+<section id="study-objective-and-methods" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Study Objective and Methods</h2>
+<ul>
+<li>To explore the number of contributed countries to OSM between gender and age</li>
+<li>To quantify the diversity of OSM contributions between gender and age</li>
+</ul>
 </section>
-<section id="study-objective" class="slide level2">
-<h2>Study Objective</h2>
-<p>To explore the number of contributed countries to OSM between gender and age To quantify the diversity of OSM contributions between gender and age</p>
+<section id="study-objective-and-methods-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Study Objective and Methods</h2>
+<ul>
+<li>To explore the number of contributed countries to OSM between gender and age → <span style="color:blue"><strong>Data Exploration</strong></span></li>
+<li>To quantify the diversity of OSM contributions between gender and age → <span style="color:blue"><strong>(Gini) Simpson’s Diversity Index</strong></span></li>
+</ul>
 </section>
 <section id="methods" class="slide level2">
 <h2>Methods</h2>
+<p><img data-src="images/methods.png" class="absolute" style="top: 100px; left: 100px; width: 900px; height: 480px; "></p>
 </section>
 <section id="gini-simpsons-diversity-index-the-metrics" class="slide level2">
-<h2>Gini-Simpson’s Diversity Index: The Metrics</h2>
-<p>We analyzed user’s mapping behaviour We first defined at individual level and then aggregated by averaging over users with same gender and age cohort Each individual will have a value between 0-1 0: Less diverse (tends to be domestic) 1: More diverse</p>
+<h2>(Gini) Simpson’s Diversity Index: The Metrics</h2>
+<p><img data-src="images/simpson.png" class="absolute" style="top: 150px; left: 150px; width: 700px; height: 70px; "></p>
+<div style="text-align: center; margin-top: 2.5em">
+<ul>
+<li>We first defined at individual level and then aggregated by averaging over users with same gender and age cohort</li>
+<li>Each individual will have a value between 0-1
+<ul>
+<li>0: Less diverse (tends to be domestic)</li>
+<li>1: More diverse</li>
+</ul></li>
+</ul>
+</div>
 </section>
-<section id="results" class="slide level2">
-<h2>Results:</h2>
+<section id="results" class="slide level2" data-background="#43464B">
+<h2>Results</h2>
+<div style="margin-top: 1em">
+<ul>
+<li>Exploratory Findings</li>
+<li>Simpson’s Diversity Index</li>
+</ul>
+</div>
 </section>
 <section id="top-three-countries-accounted-for-60-of-the-total-contribution" class="slide level2">
 <h2>Top three countries accounted for 60% of the total contribution</h2>
+<p><img data-src="images/barplot.png" class="absolute" style="top: 200px; left: 0px; width: 500px; height: 400px; "> <img data-src="images/wordcloud.png" class="absolute" style="top: 220px; left: 600px; width: 400px; height: 350px; "></p>
 </section>
 <section id="contributed-countries-by-users-demography" class="slide level2">
 <h2>Contributed Countries by Users’ Demography</h2>
-<p>Long-tail distribution was seen in men and women in 20s Women in 30s and over had fewer than 100 contributed countries Likely due to fewer survey participants, but OSM, in general, might have a similar distribution</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/violin.png" class="absolute" style="top: 200px; left: -30px; width: 500px; height: 350px; "></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Long-tail distribution was seen in men and women in 20s</li>
+<li>Women in 30s and over had fewer than 100 contributed countries</li>
+<li>Likely due to fewer survey participants, but OSM, in general, might have a similar distribution</li>
+</ul>
+</div>
+</div>
 </section>
 <section id="results-gini-simpsons-diversity-index" class="slide level2">
 <h2>Results: Gini-Simpson’s Diversity Index</h2>
-<p>Average of GSDI: Female: 0.5 Male: 0.67 Male participants were likely contribute to more countries and wide distribution than their female counterparts. However, two peaks of diversity patterns of the female users mean that the spatial preference within the group contrasts significantly</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/density.png" class="absolute" style="top: 150px; left: -30px; width: 500px; height: 480px; "></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>SDI: Female: 0.5 Male: 0.67</li>
+<li>Male participants were likely contribute to more countries than their female counterparts.</li>
+<li>However, two peaks of diversity patterns of the female users mean that the spatial preference within the group contrasts significantly</li>
+</ul>
+</div>
+</div>
 </section>
 <section id="gini-simpsons-diversity-index" class="slide level2">
 <h2>Gini-Simpson’s Diversity Index</h2>
-<p>Male participants have systematically scored higher diversity measures across both age groups, and the average scores are less likely to differ between age groups The scores from female participants are constantly lower than that of males, and it varies significantly by age group Female 40-50s’ have wider variation due to small number of participants</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/boxplotage.png" class="absolute" style="top: 100px; left: -30px; width: 500px; height: 480px; "></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Male participants have systematically scored higher diversity measures across both age groups</li>
+<li>The scores of female participants are constantly lower than that of males, and it <span style="color:blue"><em>varies significantly by age groups</em></span></li>
+<li>Female 40-50s’ have wider variation due to small number of participants</li>
+</ul>
+</div>
+</div>
 </section>
 <section id="conclusion" class="slide level2">
 <h2>Conclusion</h2>
