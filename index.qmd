@@ -167,7 +167,7 @@ Credits: Calculate Simpson's Index, Peter Stanley's Youtube Channel
 :::
 
 ::: {.column width="50%"}
-- SDI: Female: 0.5 Male: 0.67
+- SDI: Female: 0.50 Male: 0.67
 - Male participants were likely contribute to more countries than their female counterparts.
 - However, two peaks of diversity patterns of the female users mean that the spatial preference within the group contrasts significantly
 
@@ -196,22 +196,45 @@ Credits: Calculate Simpson's Index, Peter Stanley's Youtube Channel
 
 ### Exploratory Analysis
 
-- Women’s spatial coverage to OSM were remarkably lower than that of men
-- Men in 20s' to over 50s' groups and women in the 20s' group had polarised contributions where the averages were at 40-50 countries but have extreme users who contribute to over 150 countries. 
-- However, such variabilities can be identified by the disaggregation of gender and age
 - 60% of the participants made changes to the UK, the US, and Germany.
+- Women’s spatial coverage to OSM were remarkably lower than that of men
+- However, such variabilities can be identified by the disaggregation of gender and age
+    * Men between 20s-50s & Women in 20s: Max of 150 countries, Mean of 40 countries
+
+<!-- - Men in 20s' to over 50s' groups and women in the 20s' group had polarised contributions where the averages were at 40-50 countries but have extreme users who contribute to over 150 countries. 
+-->
 
 ### Simpson’s Index of Diversity
 
-- Men: 0.67 Women 0.50
-- Men were more likely to be spatial diverse than their female counterparts. However, this once again varied significantly by the age groups.
+- Men were more likely to be spatial diverse than their female counterparts.
+   * M: 67%, W: 50%
+- However, this once again varied significantly by the age groups.
+   * 20s: M 70% W 42%
+   * 30s: M 69% W 63%
+   * 40s: M 66% W 51%
+   * 50s: M 64% W 44%
 
 ### Things we noticed
 - Unequal samples: Men (188 persons) vs Women (30 persons) ⇐ might represent the online population?
 - The nature of crowdsourcing: a few extreme users can change the entire statistics “long-tail”
+- OSM can be used as a proxy to understand the uneven spatial coverage of "the crowd"
 :::
 
 
+## {-}
+
+<p style="font-size:70px; text-align:center; margin-top: 3em">
+Thank You
+</p>
+
+<p style="font-size:70px; text-align:center">
+Q & A
+</p>
+
+
+::: footer
+**The work presented in this paper has been funded by the UK Research and Innovation (UKRI) Future Leaders Fellowship MR/S01795X/2.**
+:::
 
 <!--## VGI
 :::: {.columns}
