@@ -99,6 +99,11 @@ Still very young stage
 :::
 ::::
 
+::: footer
+Credits: Calculate Simpson's Index, Peter Stanley's Youtube Channel
+:::
+
+
 ## Simpson’s Index of Diversity: Quick Example
 :::: {.columns}
 
@@ -117,7 +122,12 @@ Still very young stage
 :::
 ::::
 
-<!--
+::: footer
+Credits: Calculate Simpson's Index, Peter Stanley's Youtube Channel
+:::
+
+
+
 ## Results{background="#43464B"}
 
 ::: {style="margin-top: 1em"}
@@ -125,7 +135,7 @@ Still very young stage
 - Exploratory Findings
 - Simpson’s Diversity Index
 :::
--->
+
 
 ## Top three countries accounted for 60% of the total contribution
 
