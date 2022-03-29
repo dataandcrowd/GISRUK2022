@@ -1,40 +1,17 @@
 ---
 title: "Geographic Biases in OSM Contributions"
 subtitle: "How do the Geographic Extent of Contributions Differ among Demographic groups?\n"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: "April 6th 2022"
 author: "Hyesop Shin, Ana Basiri"
 format:
   revealjs: 
     theme: default
     incremental: false 
     slide-number: true
-    chalkboard: 
-      buttons: false
     preview-links: auto
     css: styles.css
     logo: images/frontlogo.png
-    
 ---
-<!--
-## VGI
-
-:::: {.columns}
-
-::: {.column width="50%"}
-![](images/vgi.png){.absolute top="0" left="-100" width="700" height="500"}
-![](images/apps.png){.absolute top="450" left="-50" width="400" height="200"}
-:::
-
-::: {.column width="50%"}
-<p style="font-size:40px; margin-top: 1em">
-  the use of digital devices to collect, assemble, modify and share geographic data provided voluntarily by citizens (Goodchild, 2007)
-</p>
-:::
-::::
--->
-
-## Our Focus: The Volunteers
-![](images/focus.png){.absolute top="100" left="0" width="1300" height="430"}
 
 ## Volunteers are not always representative
 
@@ -74,29 +51,73 @@ Still very young stage
 - To explore the number of contributed countries to OSM between gender and age 
 - To quantify the diversity of OSM contributions between gender and age 
 
-
+<!--
 ## Study Objective and Methods{auto-animate=true}
 - To explore the number of contributed countries to OSM between gender and age → <span style="color:blue">**Data Exploration**</span>
 - To quantify the diversity of OSM contributions between gender and age → <span style="color:blue">**(Gini) Simpson's Diversity Index**</span>
+
+-->
 
 ## Methods
 
 ![](images/methods.png){.absolute top="100" left="100" width="900" height="480"}
 
 
-## (Gini) Simpson’s Diversity Index: The Metrics
+## Simpson’s Index of Diversity: The Metrics
 
-![](images/simpson.png){.absolute top="150" left="150" width="700" height="70"}
+<!-- ![](images/simpson.png){.absolute top="150" left="150" width="700" height="70"} -->
 
-::: {style="text-align: center; margin-top: 2.5em"}
+<span style="font-size:50px">$$D' = 1 - (\sum n(n-1)/N(N-1))$$</span>
 
-- We first defined at individual level and then aggregated by averaging over users with same gender and age cohort
-- Each individual will have a value between 0-1
-    - 0: Less diverse (tends to be domestic)
-    - 1: More diverse
+
+::: {style="text-align: center; margin-top: 1.5em"}
+- Probability that any two randomly selected species from the sample will be different
+   - 0: Low diversity (tends to be domestic)
+   - 1: High diversity
+- **N**: Total Number of Individual Organisms
+- **n**: Number of individuals at particular species
+
+<!-- - We first defined at individual level and then aggregated by averaging over users with same gender and age cohort -->
 :::
 
 
+## Simpson’s Index of Diversity: Quick Example
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/simpsonex1.png){.absolute top="150" left="0" width="400" height="350"}
+:::
+
+::: {.column width="50%"}
+- $D' = 1 - (\sum n(n-1)/N(N-1))$
+- $D' = 1 - (\frac{36(36-1)+2(2-1)+1(1-1)} {39(39-1)})$
+- $D' = 1 - (\frac{1282}{1482})$
+- $1 - 0.85$
+- $0.15$
+
+<span style="color:blue">*15% chance of randomly picking 2 that are different*</span>
+:::
+::::
+
+## Simpson’s Index of Diversity: Quick Example
+:::: {.columns}
+
+::: {.column width="50%"}
+![](images/simpsonex2.png){.absolute top="150" left="0" width="400" height="350"}
+:::
+
+::: {.column width="50%"}
+- $D' = 1 - (\sum n(n-1)/N(N-1))$
+- $D' = 1 - (\frac{6(6-1)+6(6-1)+6(6-1)} {18(18-1)})$
+- $D' = 1 - (\frac{90}{306})$
+- $1 - 0.29$
+- $0.71$
+
+<span style="color:blue">*71% chance of randomly picking 2 that are different*</span>
+:::
+::::
+
+<!--
 ## Results{background="#43464B"}
 
 ::: {style="margin-top: 1em"}
@@ -104,7 +125,7 @@ Still very young stage
 - Exploratory Findings
 - Simpson’s Diversity Index
 :::
-
+-->
 
 ## Top three countries accounted for 60% of the total contribution
 
@@ -144,7 +165,7 @@ Still very young stage
 ::::
 
 
-## Gini-Simpson’s Diversity Index
+## Simpson’s Index of Diversity
 :::: {.columns}
 
 ::: {.column width="50%"}
@@ -166,11 +187,11 @@ Still very young stage
 ### Exploratory Analysis
 
 - Women’s spatial coverage to OSM were remarkably lower than that of men
-- However, such variabilities can be identified by the disaggregation of gender and age
 - Men in 20s' to over 50s' groups and women in the 20s' group had polarised contributions where the averages were at 40-50 countries but have extreme users who contribute to over 150 countries. 
+- However, such variabilities can be identified by the disaggregation of gender and age
 - 60% of the participants made changes to the UK, the US, and Germany.
 
-### Simpson’s Diversity Index
+### Simpson’s Index of Diversity
 
 - Men: 0.67 Women 0.50
 - Men were more likely to be spatial diverse than their female counterparts. However, this once again varied significantly by the age groups.
@@ -178,15 +199,27 @@ Still very young stage
 ### Things we noticed
 - Unequal samples: Men (188 persons) vs Women (30 persons) ⇐ might represent the online population?
 - The nature of crowdsourcing: a few extreme users can change the entire statistics “long-tail”
-
-
 :::
 
 
 
+<!--## VGI
+:::: {.columns}
+::: {.column width="50%"}
+![](images/vgi.png){.absolute top="0" left="-100" width="700" height="500"}
+![](images/apps.png){.absolute top="450" left="-50" width="400" height="200"}
+:::
 
+::: {.column width="50%"}
+<p style="font-size:40px; margin-top: 1em">
+  the use of digital devices to collect, assemble, modify and share geographic data provided voluntarily by citizens (Goodchild, 2007)
+</p>
+:::
+::::
 
-
+## Our Focus: The Volunteers
+![](images/focus.png){.absolute top="100" left="0" width="1300" height="430"}
+-->
 
 
 
