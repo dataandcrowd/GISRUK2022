@@ -161,16 +161,30 @@ Still very young stage
 
 
 ## Conclusion
-Main Contribution: Exploratory Analysis
-Women’s spatial coverage to OSM were remarkably lower than that of men
-However, such variabilities can be identified by the disaggregation of gender and age
-Men in 20s' to over 50s' groups and women in the 20s' group had polarised contributions where the averages were at 40-50 countries but have extreme users who contribute to over 150 countries. 
-60% of the participants made changes to the UK, the US, and Germany.
+::: {.panel-tabset}
+
+### Exploratory Analysis
+
+- Women’s spatial coverage to OSM were remarkably lower than that of men
+- However, such variabilities can be identified by the disaggregation of gender and age
+- Men in 20s' to over 50s' groups and women in the 20s' group had polarised contributions where the averages were at 40-50 countries but have extreme users who contribute to over 150 countries. 
+- 60% of the participants made changes to the UK, the US, and Germany.
+
+### Simpson’s Diversity Index
+
+- Men: 0.67 Women 0.50
+- Men were more likely to be spatial diverse than their female counterparts. However, this once again varied significantly by the age groups.
+
+### Things we noticed
+- Unequal samples: Men (188 persons) vs Women (30 persons) ⇐ might represent the online population?
+- The nature of crowdsourcing: a few extreme users can change the entire statistics “long-tail”
 
 
-Main Contribution: Gini-Simpson’s Diversity Index
-Men: 0.67 Women 0.50
-Men were more likely to be spatial diverse than their female counterparts. However, this once again varied significantly by the age groups.
+:::
+
+
+
+
 
 
 
