@@ -77,22 +77,12 @@ Ecological Fallacy
 :::
 ::::
 
-
-<!--
-## Study Objective and Methods{auto-animate=true}
-- To explore the number of contributed countries to OSM between gender and age → <span style="color:blue">**Data Exploration**</span>
-- To quantify the diversity of OSM contributions between gender and age → <span style="color:blue">**(Gini) Simpson's Diversity Index**</span>
-
--->
-
 ## Methods
 
 ![](images/methods.png){.absolute top="100" left="100" width="900" height="480"}
 
 
 ## Simpson’s Index of Diversity: The Metrics
-
-<!-- ![](images/simpson.png){.absolute top="150" left="150" width="700" height="70"} -->
 
 <span style="font-size:50px">$$D' = 1 - (\sum n(n-1)/N(N-1))$$</span>
 
