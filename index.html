@@ -339,7 +339,6 @@
 
 <section id="volunteers-are-not-always-representative" class="slide level2">
 <h2>Volunteers are not always representative</h2>
-<div>
 <p style="font-size:45px; margin-top: 1em; color: blue">
 Under-represented crowd
 </p>
@@ -348,34 +347,58 @@ Under-represented crowd
 <li>A community with local knowledge but weakness in internet technology</li>
 <li>Voluntary works are to some extent associated with the time spent on computers and social media (Jago et al., 2014; Clary et al., 2020)</li>
 </ul>
-</div>
 <p><img data-src="images/underrepresented.png" class="absolute" style="top: 500px; left: 100px; width: 800px; height: 150px; "></p>
 </section>
 <section id="under-representation-and-spatial-bias" class="slide level2">
 <h2>Under-representation and Spatial Bias</h2>
 <ul>
+<li><strong>Crowdsourced Data: Patchy Distribution Across Space &amp; Time</strong>
+<ul>
 <li>A well-known feature of the data from citizen science projects is the patchy distribution of maps across space and time</li>
 <li>This leaves global citizen science datasets with spatial and temporal gaps and redundancies</li>
+</ul></li>
+</ul>
+<p style="margin-top: .5em">
+</p><ul>
+<li><strong>Participants’ Propensity to Volunteer</strong>
+<ul>
 <li>The majority tend to contribute to more familiar areas</li>
 <li>The minority spend less time on volunteered works, tend to contribute to neighbourhood areas</li>
+</ul></li>
 </ul>
+<p></p>
 <p><img data-src="images/spatialbias.png" class="absolute" style="top: 550px; left: 350px; width: 400px; height: 150px; "></p>
-<!--
-## Research Gaps
-Current literature of citizen science looking at spatial and temporal biases:
-Ecological Fallacy
-Do not breakdown the records by demographic groups even though certain cohorts have different distributions than their counterparts. These studies only imply gender or age biases as a whole.
-Focus either on demographic characteristics or spatial and temporal patterns - the two perspectives are usually not put into relation with each other
-Strava is attempting to consider gender, age
-Still very young stage
--->
-</section>
-<section id="study-objective-and-methods" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Study Objective and Methods</h2>
+<aside class="notes">
 <ul>
-<li>To explore the number of contributed countries to OSM between gender and age</li>
-<li>To quantify the diversity of OSM contributions between gender and age</li>
+<li>Current literature of citizen science looking at spatial and temporal biases: Ecological Fallacy</li>
+<li>Do not breakdown the records by demographic groups even though certain cohorts have different distributions than their counterparts. These studies only imply gender or age biases as a whole.</li>
+<li>Focus either on demographic characteristics or spatial and temporal patterns - the two perspectives are usually not put into relation with each other</li>
+<li>Strava is attempting to consider gender, age</li>
+<li>Still at very young stage</li>
 </ul>
+</aside>
+</section>
+<section id="study-objective" class="slide level2">
+<h2>Study Objective</h2>
+<p style="font-size:45px; margin-top: 1em;">
+Can we quantify the spatial diversity of OSM contributions by demographic characteristics?
+</p>
+<p style="font-size:45px;text-align:center;margin-top: 1em;">
+↙↘
+</p>
+<div class="columns" style="margin-top: 1em">
+<div class="column" style="width:40%;">
+<ul>
+<li>OSM Data Exploration by gender and age</li>
+</ul>
+</div><div class="column" style="width:20%;">
+
+</div><div class="column" style="width:40%;">
+<ul>
+<li>Spatial Diversity of OSM contributions by gender and age</li>
+</ul>
+</div>
+</div>
 <!--
 ## Study Objective and Methods{auto-animate=true}
 - To explore the number of contributed countries to OSM between gender and age → <span style="color:blue">**Data Exploration**</span>
@@ -464,9 +487,9 @@ Still very young stage
 <p><img data-src="images/violin.png" class="absolute" style="top: 200px; left: -30px; width: 500px; height: 350px; "></p>
 </div><div class="column" style="width:50%;">
 <ul>
-<li>Long-tail distribution was seen in men and women in 20s</li>
-<li>Women in 30s and over had fewer than 100 contributed countries</li>
-<li>Likely due to fewer survey participants, but OSM, in general, might have a similar distribution</li>
+<li>Long-tail distribution: Men and women in 20s</li>
+<li>Women &gt; 30s: Fewer than 100 contributed countries</li>
+<li><strong>Oversampling?</strong>: OSM, in general, might have a similar distribution</li>
 </ul>
 </div>
 </div>
@@ -476,11 +499,11 @@ Still very young stage
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><img data-src="images/density.png" class="absolute" style="top: 150px; left: -30px; width: 500px; height: 480px; "></p>
-</div><div class="column" style="width:50%;">
+</div><div class="column" style="margin-top: 1em">
 <ul>
-<li class="fragment">SDI: Female: 0.50 Male: 0.67</li>
-<li class="fragment">Male participants were likely contribute to more countries than their female counterparts.</li>
-<li class="fragment">However, two peaks of diversity patterns of the female users mean that the spatial preference within the group contrasts significantly</li>
+<li>SID: Female: 0.50 Male: 0.67</li>
+<li>Male participants were likely contribute to more countries than their female counterparts.</li>
+<li>However, two peaks of diversity patterns of the female users mean that the spatial preference within the group contrasts significantly</li>
 </ul>
 </div>
 </div>
@@ -492,9 +515,9 @@ Still very young stage
 <p><img data-src="images/boxplotage.png" class="absolute" style="top: 100px; left: -30px; width: 500px; height: 480px; "></p>
 </div><div class="column" style="width:50%;">
 <ul>
-<li class="fragment">Male participants have systematically scored higher diversity measures across both age groups</li>
-<li class="fragment">The scores of female participants are constantly lower than that of males, and it <span style="color:blue"><em>varies significantly by age groups</em></span></li>
-<li class="fragment">Female 40-50s’ have wider variation due to small number of participants</li>
+<li>Male participants have systematically scored higher diversity measures across both age groups</li>
+<li>The scores of female participants are constantly lower than that of males, and it <span style="color:blue"><em>varies significantly by age groups</em></span></li>
+<li>Female 40-50s’ have wider variation due to small number of participants</li>
 </ul>
 </div>
 </div>
@@ -513,21 +536,24 @@ Still very young stage
 <li>Men between 20s-50s &amp; Women in 20s: Max of 150 countries, Mean of 40 countries</li>
 </ul></li>
 </ul>
-<!-- - Men in 20s' to over 50s' groups and women in the 20s' group had polarised contributions where the averages were at 40-50 countries but have extreme users who contribute to over 150 countries. 
--->
+<aside class="notes">
+<ul>
+<li>Men in 20s’ to over 50s’ groups and women in the 20s’ group had polarised contributions where the averages were at 40-50 countries but have extreme users who contribute to over 150 countries.</li>
+</ul>
+</aside>
 </div>
 <div id="tabset-1-2">
 <ul>
 <li>Men were more likely to be spatial diverse than their female counterparts.
 <ul>
-<li>M: 67%, W: 50%</li>
+<li>M: .67, W: .50</li>
 </ul></li>
 <li>However, this once again varied significantly by the age groups.
 <ul>
-<li>20s: M 70% W 42%</li>
-<li>30s: M 69% W 63%</li>
-<li>40s: M 66% W 51%</li>
-<li>50s: M 64% W 44%</li>
+<li>20s: M .70 W .42</li>
+<li>30s: M .69 W .63</li>
+<li>40s: M .66 W .51</li>
+<li>50s: M .64 W .44</li>
 </ul></li>
 </ul>
 </div>
