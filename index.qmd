@@ -212,9 +212,9 @@ Credits: Calculate Simpson's Index, Peter Stanley's Youtube Channel
 ### Exploratory Analysis
 
 - 60% of the participants made changes to the UK, the US, and Germany.
-- Women’s spatial coverage to OSM were remarkably lower than that of men
-- However, such variabilities can be identified by the disaggregation of gender and age
-    * Men between 20s-50s & Women in 20s: Max of 150 countries, Mean of 40 countries
+- OSM Spatial coverage: Women were remarkably lower than that of men
+- However, such variabilities was identified by the disaggregation of gender and age
+    * Men between 20s-50s & Women in 20s
 
 ::: {.notes}
 - Men in 20s' to over 50s' groups and women in the 20s' group had polarised contributions where the averages were at 40-50 countries but have extreme users who contribute to over 150 countries. 
@@ -225,15 +225,22 @@ Credits: Calculate Simpson's Index, Peter Stanley's Youtube Channel
 - Men were more likely to be spatial diverse than their female counterparts.
    * M: .67, W: .50
 - However, this once again varied significantly by the age groups.
-   * 20s: M .70 W .42
-   * 30s: M .69 W .63
-   * 40s: M .66 W .51
-   * 50s: M .64 W .44
+
+| Age  | Men  | Women |
+|------|------|-------|
+| 20s: | 0.7  | 0.42  |
+| 30s: | 0.69 | 0.63  |
+| 40s: | 0.66 | 0.51  |
+| 50s: | 0.64 | 0.44  |
+
 
 ### Things we noticed
 - Unequal samples: Men (188 persons) vs Women (30 persons) ⇐ might represent the online population?
-- The nature of crowdsourcing: a few extreme users can change the entire statistics “long-tail”
-- OSM can be used as a proxy to understand the uneven spatial coverage of "the crowd"
+- Loosely categorised of unstructured sampling: a few extreme users can change the entire statistics “long-tail”
+- Ways to minimise the uneven spatial coverage:
+   1) the use of sophisticated methods
+   2) filtering
+   3) inter-observer skills
 :::
 
 
