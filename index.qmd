@@ -238,9 +238,11 @@ Credits: Calculate Simpson's Index, Peter Stanley's Youtube Channel
 - Unequal samples: Men (188 persons) vs Women (30 persons) ⇐ might represent the online population?
 - Loosely categorised of unstructured sampling: a few extreme users can change the entire statistics “long-tail”
 - Ways to minimise the uneven spatial coverage:
-   1) the use of sophisticated methods
-   2) filtering
-   3) inter-observer skills
+   - the use of sophisticated methods
+   - filtering
+   - inter-observer skills
+- More thoughts needed
+   - "Gendered ageism": intersectionality of age and gender bias
 :::
 
 
