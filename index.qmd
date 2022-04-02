@@ -13,35 +13,23 @@ format:
     logo: images/frontlogo.png
 ---
 
-## Volunteers are not always representative
 
-
-<p style="font-size:45px; margin-top: 1em; color: blue">
-  Under-represented crowd
-</p>
-- A silent minority who needs information about public facilities
-- A community with local knowledge but weakness in internet technology
-- Voluntary works are to some extent associated with the time spent on computers and social media (Jago et al., 2014; Clary et al., 2020)
-
-
-![](images/underrepresented.png){.absolute top="500" left="100" width="800" height="150"}
-
-
-## Under-representation and Spatial Bias
+## Under-representation and Spatial Bias 
 * **Crowdsourced Data: Patchy Distribution Across Space & Time**
    - A well-known feature of the data from citizen science projects is the patchy distribution of maps across space and time
    - This leaves global citizen science datasets with spatial and temporal gaps and redundancies
 
-<p style="margin-top: .5em">
-* **Participants' Propensity to Volunteer**
-   - The majority tend to contribute to more familiar areas
-   - The minority spend less time on volunteered works, tend to contribute to neighbourhood areas
-</p>
 
+::: {.fragment .fade-up}
+* **Understanding the gendered temporal patterns and their spatial preferences is imperative**
+   - Contributors’ daily volunteering routines and preferences can reveal habits and interests
+   - Can assist app designers and software engineers to create more inclusive crowdsourcing platforms
+:::
 
-![](images/spatialbias.png){.absolute top="550" left="350" width="400" height="150"}
+![](images/spatialbias.png){.absolute top="600" left="350" width="400" height="150"}
 
 ::: {.notes}
+* Our focus: is the volunteers
 * Current literature of citizen science looking at spatial and temporal biases:
 Ecological Fallacy
 * Do not breakdown the records by demographic groups even though certain cohorts have different distributions than their counterparts. These studies only imply gender or age biases as a whole.
@@ -49,7 +37,6 @@ Ecological Fallacy
 * Strava is attempting to consider gender, age
 * Still at very young stage
 :::
-
 
 
 ## Study Objective
@@ -175,7 +162,7 @@ Credits: Calculate Simpson's Index, Peter Stanley's Youtube Channel
 
 
 
-## Results: Simpson’s Index of Diversity
+## Spatial Diversity: Gender
 :::: {.columns}
 
 ::: {.column width="50%"}
@@ -190,7 +177,7 @@ Credits: Calculate Simpson's Index, Peter Stanley's Youtube Channel
 ::::
 
 
-## Results: Simpson’s Index of Diversity
+## Spatial Diversity: Gender & Age
 :::: {.columns}
 
 ::: {.column width="50%"}
@@ -280,4 +267,17 @@ Q & A
 -->
 
 
+<!--
+## Volunteers are not always representative
 
+
+<p style="font-size:45px; margin-top: 1em; color: blue">
+  Under-represented crowd
+</p>
+- A silent minority who needs information about public facilities
+- A community with local knowledge but weakness in internet technology
+- Voluntary works are to some extent associated with the time spent on computers and social media (Jago et al., 2014; Clary et al., 2020)
+
+
+![](images/underrepresented.png){.absolute top="500" left="100" width="800" height="150"}
+-->
