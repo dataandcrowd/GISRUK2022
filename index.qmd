@@ -26,7 +26,7 @@ format:
    - Can assist app designers and software engineers to create more inclusive crowdsourcing platforms
 :::
 
-![](images/spatialbias.png){.absolute top="600" left="350" width="400" height="150"}
+![](images/spatialbias.png){.absolute top="560" left="350" width="400" height="150"}
 
 ::: {.notes}
 * Our focus: is the volunteers
