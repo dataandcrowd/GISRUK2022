@@ -78,12 +78,15 @@ Ecological Fallacy
 - Probability that any two randomly selected species from the sample will be different
    - 0: Low diversity (tends to be domestic)
    - 1: High diversity
-- **N**: Total Number of Individual Organisms
-- **n**: Number of individuals at particular species
+- **N**: Total number of contributions (by user)
+- **n**: Number of contributions at particular country (by user)
 
-<!-- - We first defined at individual level and then aggregated by averaging over users with same gender and age cohort -->
 :::
 
+
+::: {.notes}
+We first defined at individual level and then aggregated by averaging over users with same gender and age cohort
+:::
 
 ## Simpson’s Index of Diversity: Quick Example
 :::: {.columns}
