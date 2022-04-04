@@ -1,6 +1,6 @@
 ---
 title: "Geographic Biases in OSM Contributions"
-subtitle: "How do the Geographic Extent of Contributions Differ among Demographic groups?\n"
+subtitle: "How do the Geographic Extent of Contributions Differ by Demographic groups?"
 date: "April 6th 2022"
 author: "Hyesop Shin, Ana Basiri"
 format:
@@ -21,7 +21,7 @@ format:
 
 
 ::: {.fragment .fade-up}
-* **Understanding the gendered temporal patterns and their spatial preferences is imperative**
+* **Understanding the crowd's temporal patterns and their spatial preferences is imperative**
    - Contributors’ daily volunteering routines and preferences can reveal habits and interests
    - Can assist app designers and software engineers to create more inclusive crowdsourcing platforms
 :::
@@ -42,7 +42,7 @@ Ecological Fallacy
 ## Study Objective
 
 <p style="font-size:45px; margin-top: 1em;">
-  Can we quantify the spatial diversity of OSM contributions by demographic characteristics?
+  How do the Geographic Extent of Contributions (Spatial Bias) Differ by Demographic groups?
 </p>
 
 <p style="font-size:45px;text-align:center;margin-top: 1em;">
@@ -88,7 +88,7 @@ Ecological Fallacy
 ## Simpson’s Index of Diversity: Quick Example
 :::: {.columns}
 ::: {.column width="50%"}
-![](images/simpsonex1.png){.absolute top="150" left="0" width="400" height="350"}
+![](images/simpsonex1.png){.absolute top="200" left="50" width="350" height="350"}
 :::
 
 ::: {.column width="50%"}
@@ -111,7 +111,7 @@ Credits: Calculate Simpson's Index, Peter Stanley's Youtube Channel
 :::: {.columns}
 
 ::: {.column width="50%"}
-![](images/simpsonex2.png){.absolute top="150" left="0" width="400" height="350"}
+![](images/simpsonex2.png){.absolute top="200" left="50" width="350" height="350"}
 :::
 
 ::: {.column width="50%"}
