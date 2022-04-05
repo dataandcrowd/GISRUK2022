@@ -2,7 +2,7 @@
 title: "Geographic Biases in OSM Contributions"
 subtitle: "How do the Geographic Extent of Contributions Differ by Demographic groups?"
 date: "April 6th 2022"
-author: "Hyesop Shin, Ana Basiri"
+author: "Hyesop Shin, Ana Basiri<br/>University of Glasgow"
 format:
   revealjs: 
     theme: default
@@ -15,10 +15,11 @@ format:
 
 
 ## Under-representation and Spatial Bias 
+::: {.fragment .fade-up}
 * **Crowdsourced Data: Patchy Distribution Across Space & Time**
    - A well-known feature of the data from citizen science projects is the patchy distribution of maps across space and time
    - This leaves global citizen science datasets with spatial and temporal gaps and redundancies
-
+:::
 
 ::: {.fragment .fade-up}
 * **Understanding the crowd's temporal patterns and their spatial preferences is imperative**
@@ -75,12 +76,12 @@ Ecological Fallacy
 
 
 ::: {style="text-align: center; margin-top: 1.5em"}
-- Probability that any two randomly selected species from the sample will be different
+- Probability that any two randomly selected countries from the sample will be different
    - 0: Low diversity (tends to be domestic)
    - 1: High diversity
 - **N**: Total number of contributions (by user)
 - **n**: Number of contributions at particular country (by user)
-
+- Defined at individual level and then aggregated by gender and age
 :::
 
 
@@ -201,7 +202,6 @@ Credits: Calculate Simpson's Index, Peter Stanley's Youtube Channel
 
 ### Exploratory Analysis
 
-- 60% of the participants made changes to the UK, the US, and Germany.
 - No.of Contributed Countries: Women were remarkably lower than that of men
 - However, such variabilities was identified by the disaggregation of gender and age
     * Men between 20s-50s & Women in 20s
