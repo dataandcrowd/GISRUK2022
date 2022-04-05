@@ -202,7 +202,7 @@ Credits: Calculate Simpson's Index, Peter Stanley's Youtube Channel
 ### Exploratory Analysis
 
 - 60% of the participants made changes to the UK, the US, and Germany.
-- OSM Spatial coverage: Women were remarkably lower than that of men
+- No.of Contributed Countries: Women were remarkably lower than that of men
 - However, such variabilities was identified by the disaggregation of gender and age
     * Men between 20s-50s & Women in 20s
 
@@ -231,8 +231,6 @@ Credits: Calculate Simpson's Index, Peter Stanley's Youtube Channel
    - the use of sophisticated methods
    - filtering
    - inter-observer skills
-- More thoughts needed
-   - "Gendered ageism": intersectionality of age and gender bias
 :::
 
 
