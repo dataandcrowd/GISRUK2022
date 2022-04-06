@@ -244,6 +244,10 @@ Thank You
 Q & A
 </p>
 
+<p style="font-size:25px; text-align:left">
+Hyesop Shin (2022) Geographic Biases in OSM Contributions: How do the Geographic Extent of Contributions Differ among Demographic groups? [CodeOcean]. [https://doi.org/10.24433/CO.2886888.v1](https://doi.org/10.24433/CO.2886888.v1)
+</p>
+
 
 ::: footer
 **The work presented in this paper has been funded by the UK Research and Innovation (UKRI) Future Leaders Fellowship MR/S01795X/2.**
